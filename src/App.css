@@ -1,5 +1,6 @@
 .App {
   font-family: 'Roboto', sans-serif;
+  color: rgb(112, 112, 112);
 }
 
 .main-Link {
@@ -12,20 +13,29 @@
 }
 
 .infoTitile {
+  color: black;
   font-family: 'Anton', sans-serif;
   font-size: 55px;
 }
 
+.fullwidth{
+  width: 100%;
+  background-color: #F5A200;
+}
+
+.social{
+  width: 25px;
+  height: 25px;
+  margin-right: 20px;
+}
+
 .highContainer {
-  height: calc(100vh - 80px);
+  min-height: calc(100vh - 90px);
+  align-items: center;
 }
 
 .dinamicTitle {
   display: block;
-}
-
-.infoInfo {
-  color: rgb(112, 112, 112);
 }
 
 .dinamicTitle::before {
@@ -66,7 +76,7 @@ color: #F5A200;
 
 
 .centeredInfo {
-  margin-top: 50%;
+
 }
 
 a:hover {

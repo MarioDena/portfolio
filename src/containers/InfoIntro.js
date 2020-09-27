@@ -1,6 +1,7 @@
 /* eslint-disable jsx-a11y/heading-has-content */
 import React from 'react';
 import PropTypes from 'prop-types';
+import InfoLinks from '../components/InfoLinks';
 
 const InfoIntro = (props) => {
   const { info } = props;
@@ -12,6 +13,7 @@ const InfoIntro = (props) => {
       <div className="row">
         <h3 className="infoTitile">{info.title}</h3>
         <p className="infoInfo">{info.content}</p>
+        <InfoLinks />
       </div>
     </div>
   );

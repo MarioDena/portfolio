@@ -4,7 +4,7 @@ import mainImage from '../assets/main.png';
 const InfoSVG = () => {
   return (
     <div className="container">
-      <div className="row centeredInfo">
+      <div className="row">
         <img src={mainImage} alt="..." />
       </div>
     </div>
