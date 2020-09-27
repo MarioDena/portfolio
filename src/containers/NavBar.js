@@ -1,18 +1,21 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React from 'react';
 import PropTypes from 'prop-types';
+import { connect } from 'react-redux';
 import Navlinks from '../components/NavLinks';
 
+const mapStateToProps = (state) => {
+  return {
+    links: state.links,
+  };
+};
+
 const NavBar = (props) => {
-    const links = [
-        { ref: '#', name: 'Index' },
-        { ref: '#', name: 'Projects' },
-        { ref: '#', name: 'Contact' },
-      ];
+  const { links } = props;
   return (
     <nav className="navbar navbar-light bg-light">
       <div className="container">
-        <a className="navbar-brand md-title mr-auto" href="#">
+        <a className="navbar-brand text-warning md-title mr-auto" href="#">
           MD
         </a>
         <div className="nav-item">
@@ -24,13 +27,11 @@ const NavBar = (props) => {
 };
 
 NavBar.propTypes = {
-  books: PropTypes.arrayOf(PropTypes.object),
-  deleteBook: PropTypes.func,
+  links: PropTypes.arrayOf(PropTypes.object),
 };
 
 NavBar.defaultProps = {
-  books: [],
-  deleteBook: null,
+  links: [],
 };
 
-export default NavBar;
+export default connect(mapStateToProps, null)(NavBar);

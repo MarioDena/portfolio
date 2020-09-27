@@ -1,8 +1,15 @@
 .App {
-  text-align: center;
+  font-family: 'Roboto', sans-serif;
 }
 
+.main-Link{
+font-size: small;
+font-weight: bold;
+}
 .md-title{
-  font-family: 'Roboto', sans-serif;
   font-weight: bold;
+}
+
+a:hover{
+  text-decoration: none;
 }

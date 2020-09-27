@@ -4,9 +4,11 @@ import PropTypes from 'prop-types';
 const NavLinks = (props) => {
   const { links } = props;
   return (
-    <div>
+    <div className="row">
       {links.map((link) => (
-        <a href={link.ref}>{link.name}</a>
+        <a className="text-warning main-Link" href={link.ref}>
+          <div className="col-md-4">{`./${link.name}`}</div>
+        </a>
       ))}
     </div>
   );
