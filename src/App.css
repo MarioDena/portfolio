@@ -3,19 +3,72 @@
   color: rgb(112, 112, 112);
 }
 
+.btn{
+  font-family: 'Anton', sans-serif;
+}
+
 .main-Link {
-  font-size: small;
-  font-weight: bold;
+  font-size: 12px;
+  letter-spacing: 3px;
+  font-family: 'Anton', sans-serif;
 }
 .md-title {
   max-width: 60px;
   border-radius: 50%;
 }
 
+.content-cont{
+  background-color: white;
+  padding: 15px;
+  font-size: 14px;
+}
+
+.content-cont2{
+  opacity: .9;
+  background-color: white;
+}
+
+.badges{
+padding: 15px;
+}
+
+.badge{
+  margin-right: 5px;
+  }
+
+.text-title-cont{
+  position: absolute;
+  padding: 15px;
+  font-family: 'Anton', sans-serif;
+}
+
+.cardContainer{
+  background-color: white;
+  margin-bottom: 40px;
+padding-left: 0;
+padding-right: 0;
+  box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.16), 0 4px 20px 0 rgba(0, 0, 0, 0.12);
+}
+
+.socialLinks{
+  padding-bottom: 40px;
+}
+
+.mrg-top{
+ padding-top: 30px;
+ margin-bottom: 20px;
+}
+
 .infoTitile {
   color: black;
   font-family: 'Anton', sans-serif;
   font-size: 55px;
+}
+
+.infoTitile2{
+  color: black;
+  font-family: 'Anton', sans-serif;
+  font-size: 45px;
 }
 
 .fullwidth{
@@ -30,6 +83,10 @@
 }
 
 .highContainer {
+  min-height: calc(100vh - 90px);
+}
+
+.highContainer2 {
   min-height: calc(100vh - 90px);
   align-items: center;
 }

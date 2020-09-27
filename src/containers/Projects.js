@@ -1,12 +1,11 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
-import Navlinks from '../components/NavLinks';
-import foto from '../assets/Foto.jpg';
+import ProjectPreview from '../components/ProjectPreview';
 
 const mapStateToProps = (state) => {
   return {
-    links: state.links,
+    projectList: state.projects,
   };
 };
 
@@ -14,10 +13,14 @@ const Projects = (props) => {
   const { projectList } = props;
   return (
     <nav className="fullwidth">
-      <div className="container">
+      <div className="container ">
+        <div className="row justify-content-center"> <h3 className="infoTitile2 mrg-top">Projects</h3></div>
+     
+        <div className="row highContainer">
         {projectList.map((project) => (
-          <Project project={project} />
+          <ProjectPreview project={project} />
         ))}
+      </div>
       </div>
     </nav>
   );

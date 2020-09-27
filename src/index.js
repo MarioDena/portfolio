@@ -7,21 +7,6 @@ import rootReducer from './reducers/RootReducer';
 import './App.css';
 import * as serviceWorker from './serviceWorker';
 
-const initialState = {
-  Projects: [
-    {
-      id: '1',
-      title: 'Recipi',
-      tech: ['React', 'Redux', 'HTML', 'CSS', 'JSX'],
-      url: '',
-      github: '',
-      description: '',
-      images: [],
-    },
-  ],
-  SelectedProject: {},
-};
-
 const store = createStore(rootReducer);
 
 ReactDOM.render(
