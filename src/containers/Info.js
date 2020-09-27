@@ -1,10 +1,12 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
+import InfoIntro from '../components/InfoIntro';
+import InfoSVG from '../components/InfoSVG';
 
 const mapStateToProps = (state) => {
   return {
-    info: state.links,
+    info: state.info,
   };
 };
 
@@ -12,10 +14,12 @@ const InfoMain = (props) => {
   const { info } = props;
   return (
     <div className="container">
-      <div className="container">
-        <div className="row">
-          <div className="col-md-7">wdqwqdwqdqwdqwd</div>
-          <div className="col-md-5">qwdqwdqwdqwdqwd</div>
+      <div className="row highContainer">
+        <div className="col-md d-flex justify-content-center">
+          <InfoIntro info={info} />
+        </div>
+        <div className="infoSVG col-md-5 justify-content-center">
+          <InfoSVG />
         </div>
       </div>
     </div>
@@ -23,11 +27,11 @@ const InfoMain = (props) => {
 };
 
 InfoMain.propTypes = {
-  links: PropTypes.arrayOf(PropTypes.object),
+  info: PropTypes.object,
 };
 
 InfoMain.defaultProps = {
-  links: [],
+  info: {},
 };
 
 export default connect(mapStateToProps, null)(InfoMain);

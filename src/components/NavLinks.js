@@ -6,7 +6,7 @@ const NavLinks = (props) => {
   return (
     <div className="row">
       {links.map((link) => (
-        <a className="text-warning main-Link" href={link.ref}>
+        <a className="main-Link" href={link.ref}>
           <div className="col-md-4">{`./${link.name}`}</div>
         </a>
       ))}

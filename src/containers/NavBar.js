@@ -3,6 +3,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
 import Navlinks from '../components/NavLinks';
+import foto from '../assets/Foto.jpg';
 
 const mapStateToProps = (state) => {
   return {
@@ -15,9 +16,11 @@ const NavBar = (props) => {
   return (
     <nav className="navbar navbar-light bg-light">
       <div className="container">
-        <a className="navbar-brand text-warning md-title mr-auto" href="#">
-          MD
-        </a>
+        <img
+          className="navbar-brand fotoMain md-title mr-auto"
+          src={foto}
+          alt="foto"
+        />
         <div className="nav-item">
           <Navlinks links={links} />
         </div>
