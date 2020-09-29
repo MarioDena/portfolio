@@ -1,7 +1,8 @@
 const links = [
-  { ref: '#', name: 'INDEX' },
-  { ref: '#', name: 'PROJECTS' },
-  { ref: '#', name: 'CONTACT' },
+  { ref: 'Index', name: 'INDEX' },
+  { ref: 'Projects', name: 'PROJECTS' },
+  { ref: 'About', name: 'ABOUT' },
+  { ref: 'Contact', name: 'CONTACT'}
 ];
 
 const linksReducer = (state = links, action) => {

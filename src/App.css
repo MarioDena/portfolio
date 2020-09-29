@@ -50,13 +50,29 @@ padding-right: 0;
   box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.16), 0 4px 20px 0 rgba(0, 0, 0, 0.12);
 }
 
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 900;
+}
+
 .socialLinks{
   padding-bottom: 40px;
 }
 
+.btn-warning{
+  margin-bottom: 20px;
+}
+
 .mrg-top{
  padding-top: 30px;
- margin-bottom: 20px;
+ margin-bottom: 90px;
+}
+
+.inframe{
+  margin-bottom: 30px;
+  margin-left: auto;
 }
 
 .infoTitile {
@@ -71,9 +87,24 @@ padding-right: 0;
   font-size: 45px;
 }
 
+.infoTitile3{
+  color: black;
+  font-family: 'Anton', sans-serif;
+  font-size: 30px;
+  margin-left: auto;
+}
+
+.infoTitile4{
+  color: black;
+  font-family: 'Anton', sans-serif;
+  font-size: 30px;
+}
+
 .fullwidth{
   width: 100%;
   background-color: #F5A200;
+  padding-top: 90px;
+  padding-bottom: 50px;
 }
 
 .social{
@@ -83,11 +114,61 @@ padding-right: 0;
 }
 
 .highContainer {
-  min-height: calc(100vh - 90px);
+  min-height: 100vh;
+}
+
+.confirmMail{
+color: black;
+font-family: 'Anton', sans-serif;
+}
+
+.confirmMailWrong{
+  color: red;
+  font-family: 'Anton', sans-serif;
+}
+
+.smallCont{
+  max-width: 800px;
+  min-height: 600px;
+}
+
+.mailsent{
+  height: 400px;
+}
+
+.errorCode{
+position: absolute;
+right: 20px;
+top: 20px;
+font-size: 10px;
+color: red;
+}
+
+.errorCode2{
+  position: absolute;
+right: 20px;
+bottom: 20px;
+font-size: 10px;
+color: red;
+}
+
+.error{
+  border-width: 2px;
+  border-color: red;
 }
 
 .highContainer2 {
-  min-height: calc(100vh - 90px);
+  min-height: 100vh;
+  align-items: center;
+  padding-top: 100px;
+}
+
+.inputContent{
+  margin: 10px;
+}
+
+.highContainer3 {
+  min-height: 100vh;
   align-items: center;
 }
 
@@ -144,5 +225,14 @@ a:hover {
 @media only screen and (max-width: 992px) {
   .infoSVG {
     display: none;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .infoTitile3{
+    margin-left: 0px;
+  }
+  .inframe{
+    margin-left: 0px;
   }
 }

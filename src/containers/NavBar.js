@@ -14,7 +14,7 @@ const mapStateToProps = (state) => {
 const NavBar = (props) => {
   const { links } = props;
   return (
-    <nav className="navbar navbar-light bg-light">
+    <nav className="navbar navbar-light bg-light sticky">
       <div className="container">
         <img
           className="navbar-brand fotoMain md-title mr-auto"

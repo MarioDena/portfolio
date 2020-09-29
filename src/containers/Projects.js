@@ -12,15 +12,16 @@ const mapStateToProps = (state) => {
 const Projects = (props) => {
   const { projectList } = props;
   return (
-    <nav className="fullwidth">
+    <nav className="fullwidth" id="Projects">
       <div className="container ">
-        <div className="row justify-content-center"> <h3 className="infoTitile2 mrg-top">Projects</h3></div>
-     
+        <div className="row justify-content-center">
+          <h3 className="infoTitile4 mrg-top">My projects</h3>
+        </div>
         <div className="row highContainer">
-        {projectList.map((project) => (
-          <ProjectPreview project={project} />
-        ))}
-      </div>
+          {projectList.map((project) => (
+            <ProjectPreview project={project} />
+          ))}
+        </div>
       </div>
     </nav>
   );

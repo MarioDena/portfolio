@@ -1,8 +1,8 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
-import InfoIntro from './InfoIntro';
-import InfoSVG from '../components/InfoSVG';
+import Curriculum from '../components/Curriculum';
+import StackList from '../components/StackList';
 
 const mapStateToProps = (state) => {
   return {
@@ -10,28 +10,28 @@ const mapStateToProps = (state) => {
   };
 };
 
-const InfoMain = (props) => {
+const Stacks = (props) => {
   const { info } = props;
   return (
-    <div className="container" id="Index">
+    <div className="container" id="About">
       <div className="row highContainer2">
         <div className="col-md d-flex">
-          <InfoIntro info={info} />
+          <Curriculum info={info} />
         </div>
-        <div className="infoSVG col-md-5 ">
-          <InfoSVG />
+        <div className="col">
+          <StackList />
         </div>
       </div>
     </div>
   );
 };
 
-InfoMain.propTypes = {
+Stacks.propTypes = {
   info: PropTypes.object,
 };
 
-InfoMain.defaultProps = {
+Stacks.defaultProps = {
   info: {},
 };
 
-export default connect(mapStateToProps, null)(InfoMain);
+export default connect(mapStateToProps, null)(Stacks);
