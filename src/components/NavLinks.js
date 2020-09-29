@@ -12,7 +12,7 @@ const NavLinks = (props) => {
     });
   };
   return (
-    <div className="row">
+    <div className="row main-Link">
       {links.map((link) => (
         <a
           type="button"

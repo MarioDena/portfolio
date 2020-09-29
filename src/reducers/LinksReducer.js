@@ -1,5 +1,5 @@
 const links = [
-  { ref: 'Index', name: 'INDEX' },
+  { ref: 'Index', name: 'HOME' },
   { ref: 'Projects', name: 'PROJECTS' },
   { ref: 'About', name: 'ABOUT' },
   { ref: 'Contact', name: 'CONTACT' },

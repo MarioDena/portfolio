@@ -21,7 +21,7 @@ body {
 }
 
 .main-Link {
-  font-size: 12px;
+  font-size: 14px;
   letter-spacing: 3px;
   font-family: 'Anton', sans-serif;
 }
@@ -298,8 +298,14 @@ textarea {
 }
 
 .main-Link {
-  color: #f5a200;
+  color:rgb(26, 26, 26);
+  flex-direction: row-reverse;
 }
+
+.main-Link:hover {
+  color:#f5a200;
+}
+
 
 a {
   color: rgb(112, 112, 112);
@@ -363,5 +369,31 @@ a::after {
   }
   .highContainer2 {
     padding-top: 120px;
+  }
+  .footText{
+    margin: 10px;
+  }
+}
+
+@media only screen and (max-width: 510px) {
+  .main-Link {
+    max-width: 200px;
+  }
+  .infoTitile {
+    font-size: 35px;
+  }
+}
+
+@media only screen and (max-width: 292px) {
+  .main-Link {
+    max-width: 120px;
+    font-size: 12px;
+  }
+}
+
+@media only screen and (max-width: 214px) {
+  .main-Link {
+    max-width: 90px;
+    font-size: 10px;
   }
 }
