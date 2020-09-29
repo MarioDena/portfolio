@@ -167,9 +167,7 @@ class ContactForm extends React.Component {
                           </div>
                           <div className="col-lg-6 col-sm-12 col-md-6">
                             {emailError ? (
-                              <p className="errorCode">
-                                Please enter a valid e-mail adress
-                              </p>
+                              <p className="errorCode">Invalid e-mail adress</p>
                             ) : (
                               <div />
                             )}
@@ -195,7 +193,7 @@ class ContactForm extends React.Component {
                             )}
                             <textarea
                               className={`inputContent form-control ${
-                                messageError ? 'error' : ''
+                                messageError ? 'error2' : ''
                               }`}
                               rows="10"
                               placeholder="Your Message"

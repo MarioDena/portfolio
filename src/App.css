@@ -225,7 +225,7 @@ textarea {
 
 .errorCode {
   position: absolute;
-  right: 20px;
+  right: 30px;
   top: 22px;
   font-size: 10px;
   color: red;
@@ -233,13 +233,18 @@ textarea {
 
 .errorCode2 {
   position: absolute;
-  right: 20px;
-  bottom: 20px;
+  right: 30px;
+  bottom: 30px;
   font-size: 10px;
   color: red;
 }
 
 .error {
+  border-width: 2px;
+  border-color: red;
+}
+
+.error2{
   border-width: 1px;
   border-color: red;
 }
@@ -377,17 +382,17 @@ a::after {
 
 @media only screen and (max-width: 510px) {
   .main-Link {
-    max-width: 200px;
-  }
-  .infoTitile {
-    font-size: 35px;
+    max-width: 220px;
   }
 }
 
-@media only screen and (max-width: 292px) {
+@media only screen and (max-width: 320px) {
   .main-Link {
     max-width: 120px;
     font-size: 12px;
+  }
+  .infoTitile {
+    font-size: 35px;
   }
 }
 
