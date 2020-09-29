@@ -35,6 +35,21 @@ class ContactForm extends React.Component {
   }
 
   handleChange(event) {
+    if (event.target.name === 'name') {
+      this.setState({
+        nameError: false,
+      });
+    }
+    if (event.target.name === 'email') {
+      this.setState({
+        emailError: false,
+      });
+    }
+    if (event.target.name === 'message') {
+      this.setState({
+        messageError: false,
+      });
+    }
     this.setState({
       [event.target.name]: event.target.value,
     });
