@@ -10,9 +10,9 @@ const Curriculum = () => {
       <div className="row">
         <p className="infoInfo">
           I&apos;m a fast learner profesional, always ready to tackle new
-          challenges and colaborate on a team. Look trough some of my abilities
-          and experience, if you like what you see and have a project that needs
-          coding, feel free to contact me.
+          challenges and collaborate on a team. Look through some of my
+          abilities and experience, if you like what you see and have a project
+          that needs coding, don&apos;t hesitate to contact me.
         </p>
       </div>
       <div className="row">
