@@ -275,8 +275,8 @@ class ContactForm extends React.Component {
             )}
             <div className="container formtAffter">
               <div className="row">
-              <p className="linksFormText col">mario_dena@outlook.com</p>{' '}
-              <FormInfo />
+                <p className="linksFormText col">mario_dena@outlook.com</p>{' '}
+                <FormInfo />
               </div>
             </div>
           </div>
