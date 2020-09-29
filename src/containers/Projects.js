@@ -15,7 +15,7 @@ const Projects = (props) => {
     <nav className="fullwidth" id="Projects">
       <div className="container ">
         <div className="row justify-content-center">
-          <h3 className="infoTitile4 mrg-top">My projects</h3>
+          <h3 className="infoTitile4 mrg-top mrg-bootm2">My projects</h3>
         </div>
         <div className="row highContainer">
           {projectList.map((project) => (

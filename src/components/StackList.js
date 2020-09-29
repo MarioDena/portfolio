@@ -1,5 +1,4 @@
 import React from 'react';
-import resume from '../assets/Resume.pdf';
 
 const StackList = () => {
   return (
@@ -14,7 +13,9 @@ const StackList = () => {
         <h3 className="infoTitile3">Frameworks</h3>
       </div>
       <div className="row">
-        <p className="infoInfo inframe">React / Ruby on Rails / Phaser / Rspec</p>
+        <p className="infoInfo inframe">
+          React / Ruby on Rails / Phaser / Rspec
+        </p>
       </div>
       <div className="row">
         <h3 className="infoTitile3">Tools</h3>

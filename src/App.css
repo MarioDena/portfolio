@@ -3,7 +3,11 @@
   color: rgb(112, 112, 112);
 }
 
-.btn{
+body {
+  position: relative;
+}
+
+.btn {
   font-family: 'Anton', sans-serif;
 }
 
@@ -17,36 +21,36 @@
   border-radius: 50%;
 }
 
-.content-cont{
+.content-cont {
   background-color: white;
   padding: 15px;
   font-size: 14px;
 }
 
-.content-cont2{
-  opacity: .9;
+.content-cont2 {
+  opacity: 0.9;
   background-color: white;
 }
 
-.badges{
-padding: 15px;
+.badges {
+  padding: 15px;
 }
 
-.badge{
+.badge {
   margin-right: 5px;
-  }
+}
 
-.text-title-cont{
+.text-title-cont {
   position: absolute;
   padding: 15px;
   font-family: 'Anton', sans-serif;
 }
 
-.cardContainer{
+.cardContainer {
   background-color: white;
   margin-bottom: 40px;
-padding-left: 0;
-padding-right: 0;
+  padding-left: 0;
+  padding-right: 0;
   box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.16), 0 4px 20px 0 rgba(0, 0, 0, 0.12);
 }
 
@@ -57,22 +61,25 @@ padding-right: 0;
   z-index: 900;
 }
 
-.socialLinks{
+.socialLinks {
   padding-bottom: 40px;
 }
 
-.btn-warning{
+.btn-warning {
   margin-bottom: 20px;
 }
 
-.mrg-top{
- padding-top: 30px;
- margin-bottom: 90px;
+.mrg-top {
+  padding-top: 30px;
 }
 
-.inframe{
+.inframe {
   margin-bottom: 30px;
   margin-left: auto;
+}
+
+.mrg-bootm2 {
+  margin-bottom: 80px;
 }
 
 .infoTitile {
@@ -81,33 +88,54 @@ padding-right: 0;
   font-size: 55px;
 }
 
-.infoTitile2{
+.Footer {
+  position: absolute;
+  text-align: center;
+  color: rgb(112, 112, 112);
+  font-size: 12px;
+  width: 100%;
+  bottom: 5px;
+}
+
+input {
+  font-family: 'Courier New', Courier, monospace;
+}
+
+textarea {
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.infoTitile2 {
   color: black;
   font-family: 'Anton', sans-serif;
   font-size: 45px;
 }
 
-.infoTitile3{
+.infoTitile3 {
   color: black;
   font-family: 'Anton', sans-serif;
   font-size: 30px;
   margin-left: auto;
 }
+.form-mrgb {
+  margin-bottom: 80px;
+}
 
-.infoTitile4{
+.infoTitile4 {
   color: black;
+  text-align: center;
   font-family: 'Anton', sans-serif;
   font-size: 30px;
 }
 
-.fullwidth{
+.fullwidth {
   width: 100%;
-  background-color: #F5A200;
+  background-color: #f5a200;
   padding-top: 90px;
   padding-bottom: 50px;
 }
 
-.social{
+.social {
   width: 25px;
   height: 25px;
   margin-right: 20px;
@@ -117,42 +145,68 @@ padding-right: 0;
   min-height: 100vh;
 }
 
-.confirmMail{
-color: black;
-font-family: 'Anton', sans-serif;
+.confirmMail {
+  color: black;
+  font-family: 'Anton', sans-serif;
 }
 
-.confirmMailWrong{
+.formContainer {
+  position: relative;
+}
+
+.linksFormText {
+  color: black;
+  font-family: 'Anton', sans-serif;
+  padding-bottom: 15px;
+  margin-right: 30px;
+}
+
+.footerText {
+  position: absolute;
+  margin-top: 50px;
+  bottom: 1px;
+  font-size: 12px;
+}
+
+.confirmMailWrong {
   color: red;
   font-family: 'Anton', sans-serif;
 }
 
-.smallCont{
-  max-width: 800px;
-  min-height: 600px;
+.formtAffter {
+  display: flex;
+  padding-top: 40px;
+  align-items: center;
+  justify-content: center;
 }
 
-.mailsent{
+.smallCont {
+  max-width: 800px;
+  min-height: 600px;
+  align-items: center;
+}
+
+.mailsent {
   height: 400px;
 }
 
-.errorCode{
-position: absolute;
-right: 20px;
-top: 20px;
-font-size: 10px;
-color: red;
-}
-
-.errorCode2{
+.errorCode {
   position: absolute;
-right: 20px;
-bottom: 20px;
-font-size: 10px;
-color: red;
+  right: 20px;
+  top: 22px;
+  font-size: 10px;
+  color: red;
 }
 
-.error{
+.errorCode2 {
+  position: absolute;
+  right: 20px;
+  bottom: 20px;
+  font-size: 10px;
+  color: red;
+}
+
+.error {
   border-width: 2px;
   border-color: red;
 }
@@ -163,7 +217,7 @@ color: red;
   padding-top: 100px;
 }
 
-.inputContent{
+.inputContent {
   margin: 10px;
 }
 
@@ -208,19 +262,28 @@ color: red;
   }
 }
 
-.main-Link{
-color: #F5A200;
+.main-Link {
+  color: #f5a200;
 }
 
+a {
+  color: rgb(112, 112, 112);
+}
+
+a:hover {
+  color: black;
+}
 
 .centeredInfo {
-
 }
 
 a:hover {
   text-decoration: none;
 }
 
+a::after {
+  color: black;
+}
 
 @media only screen and (max-width: 992px) {
   .infoSVG {
@@ -229,10 +292,19 @@ a:hover {
 }
 
 @media only screen and (max-width: 767px) {
-  .infoTitile3{
+  .infoTitile3 {
     margin-left: 0px;
   }
-  .inframe{
+  .inframe {
     margin-left: 0px;
+  }
+}
+
+@media only screen and (max-width: 430px) {
+  .infoTitile {
+    font-size: 45px;
+  }
+  .highContainer2 {
+    padding-top: 120px;
   }
 }

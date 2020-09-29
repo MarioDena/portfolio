@@ -1,1 +1,0 @@
-export const submitForm = (filter) => ({ type: 'CHANGE_FILTER', filter });

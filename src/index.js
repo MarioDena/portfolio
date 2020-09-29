@@ -6,6 +6,7 @@ import App from './containers/App';
 import rootReducer from './reducers/RootReducer';
 import './App.css';
 import * as serviceWorker from './serviceWorker';
+import Footer from './components/Footer';
 
 const store = createStore(rootReducer);
 
@@ -13,6 +14,7 @@ ReactDOM.render(
   <React.StrictMode>
     <Provider store={store}>
       <App />
+      <Footer />
     </Provider>
   </React.StrictMode>,
   document.getElementById('root'),
