@@ -40,7 +40,7 @@ const ProjectPreview = (props) => {
 
         <div className="badges">
           {project.tech.map((tech) => (
-            <span className="badge badge-danger">{tech}</span>
+            <span className="badge badge-warning">{tech}</span>
           ))}
         </div>
       </div>
