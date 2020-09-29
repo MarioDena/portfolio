@@ -5,8 +5,8 @@ import linked from '../assets/linked.png';
 
 const FormInfo = () => {
   return (
-    <div className="row">
-      <p className="socialLinks mr-auto" />
+    <div className="linksafter col">
+      <p className="mr-auto" />
       <a
         href="https://twitter.com/MarioDenaCode"
         rel="noopener noreferrer"
