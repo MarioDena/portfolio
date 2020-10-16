@@ -7,7 +7,7 @@ const StackList = () => {
         <h3 className="infoTitile3">Languages</h3>
       </div>
       <div className="row">
-        <p className="infoInfo inframe">E6S-E5S / Javascript / HTML / CSS / Ruby / Python</p>
+        <p className="infoInfo inframe">ES6 / Javascript / HTML / CSS / Ruby / Python</p>
       </div>
       <div className="row">
         <h3 className="infoTitile3">Frameworks</h3>
