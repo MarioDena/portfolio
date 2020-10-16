@@ -12,7 +12,7 @@ const InfoIntro = (props) => {
       </div>
       <div className="row">
         <h3 className="infoTitile">{info.title}</h3>
-        <p className="infoInfo">{info.content}</p>
+        <p className="infoInfo2">{info.content}</p>
         <InfoLinks />
       </div>
     </div>

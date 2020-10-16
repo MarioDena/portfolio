@@ -7,14 +7,14 @@ const StackList = () => {
         <h3 className="infoTitile3">Languages</h3>
       </div>
       <div className="row">
-        <p className="infoInfo inframe">E6S-E5S / Javascript / HTML / CSS</p>
+        <p className="infoInfo inframe">E6S-E5S / Javascript / HTML / CSS / Ruby / Python</p>
       </div>
       <div className="row">
         <h3 className="infoTitile3">Frameworks</h3>
       </div>
       <div className="row">
         <p className="infoInfo inframe">
-          React / Ruby on Rails / Phaser / Rspec
+          React / Ruby on Rails / Phaser / Jekyll
         </p>
       </div>
       <div className="row">
@@ -22,7 +22,8 @@ const StackList = () => {
       </div>
       <div className="row">
         <p className="infoInfo inframe">
-          Webpack / Redux / SCSS / Git / Bootstrap
+          Webpack / Redux / SCSS / Git / Bootstrap / Materialize / AWS
+          / Firebase / Rspec / Redux / Jest / MySQL / PostgreSQL
         </p>
       </div>
     </div>

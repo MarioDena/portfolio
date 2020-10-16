@@ -231,6 +231,10 @@ textarea {
   color: red;
 }
 
+.infoInfo{
+  text-align: right;
+}
+
 .errorCode2 {
   position: absolute;
   right: 30px;
@@ -264,6 +268,10 @@ textarea {
 .highContainer3 {
   min-height: 100vh;
   align-items: center;
+}
+
+.infoInfo2{
+  text-align: left;
 }
 
 .dinamicTitle {
@@ -365,6 +373,10 @@ a::after {
   }
   .inframe {
     margin-left: 0px;
+  }
+
+  .infoInfo{
+    text-align: left;
   }
 }
 

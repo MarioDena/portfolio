@@ -8,7 +8,7 @@ const Curriculum = () => {
         <h4 className="infoTitile2">About me</h4>
       </div>
       <div className="row">
-        <p className="infoInfo">
+        <p className="infoInfo2">
           I&apos;m a fast learner profesional, always ready to tackle new
           challenges and collaborate on a team. Look through some of my
           abilities and experience, if you like what you see and have a project
