@@ -9,7 +9,7 @@ const Curriculum = () => {
       </div>
       <div className="row">
         <p className="infoInfo2">
-          I&apos;m a fast learner professional, always ready to tackle new
+          I&apos;m a fast learner professional, always ready to take new
           challenges and collaborate on a team. Look through some of my
           abilities and experience, if you like what you see and have a project
           that needs coding, don&apos;t hesitate to contact me.
